@@ -6,7 +6,7 @@ export default function Error() {
       <div>
         <img id="background" src="./img/ui.png" alt="Snow"></img>
 
-        <div class="centered">
+        <div class="centered2">
           <h1>Error.404 Page</h1>
           <h1>哦?你好像迷路了？</h1>
           <div class="mo">
