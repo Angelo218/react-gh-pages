@@ -1,0 +1,47 @@
+.news {
+  padding: 3rem 0%;
+  padding-bottom: 4.5rem;
+}
+
+.news h2 {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.newsCard {
+  border: 1px solid;
+  border-image: url(../images/goldborder.png);
+  border-image-slice: 10%;
+  border-image-width: 5% 6%;
+  padding: 0.5% 0.5% 0 0.5%;
+  border-radius: 10px;
+  height: max(30vw, 200px);
+}
+
+.sliderContainer {
+  padding: 3% 0%;
+  background-color: rgba(0, 0, 0, 0.192);
+}
+
+.newsCard img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 1vw;
+  vertical-align: top;
+}
+
+.slick-dots li button:before {
+  color: rgb(255, 255, 255) !important;
+}
+
+.slick-arrow {
+  border-radius: 50%;
+}
+
+@media (max-width: 700px) {
+  .news {
+    padding: 1.5rem 2% 3rem 2%;
+  }
+}

@@ -1,0 +1,58 @@
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+    background-color: #333334;
+    color: white;
+    z-index: 1;
+    padding: 5%;
+  }
+  
+  .footer p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .socialmedia {
+    gap: 25px;
+    margin-bottom: 0.9rem;
+  }
+  
+  .socialmedia,
+  .policy {
+    display: flex;
+  }
+  
+  .policy {
+    gap: 2.8rem;
+    margin-bottom: 2rem;
+  }
+  
+  .policy a {
+    transition: all 0.4s ease-in-out;
+    text-align: center;
+    cursor: pointer;
+    width: 80px;
+  }
+  
+  .policy a:hover {
+    text-shadow: 0 0 5px #ffffff;
+    color: white;
+  }
+  
+  .socialmedia img {
+    width: 100px;
+  }
+  
+  @media (max-width: 700px) {
+    .socialmedia img {
+      width: 70px;
+    }
+    .policy {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+  }
+  

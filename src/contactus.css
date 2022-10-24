@@ -1,0 +1,281 @@
+.content{
+
+    background-image: 'none';
+}
+
+
+.policy a:hover {
+    text-shadow: 0 0 5px #ffffff;
+    color: white;
+  }
+  .policy p {text-align: center;
+  }
+  .policy a {
+  
+    color:white;
+  }
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+   
+  .content{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .text_shadows {
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+    font-family: bungee, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: calc(2rem + 5vw);
+    text-align: center;
+    margin: 0;
+    color: var(--color-primary);
+    animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
+    letter-spacing: 0.4rem;
+  }
+  @keyframes shadows {
+    0% {
+      text-shadow: none;
+   }
+    10% {
+      text-shadow: 3px 3px 0 var(--color-secondary);
+   }
+    20% {
+      text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary);
+   }
+    30% {
+      text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+   }
+    40% {
+      text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+   }
+    50% {
+      text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+   }
+    60% {
+      text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+   }
+    70% {
+      text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+   }
+    80% {
+      text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary);
+   }
+    90% {
+      text-shadow: 3px 3px 0 var(--color-secondary);
+   }
+    100% {
+      text-shadow: none;
+   }
+  }
+  @keyframes move {
+    0% {
+      transform: translate(0px, 0px);
+   }
+    40% {
+      transform: translate(-12px, -12px);
+   }
+    50% {
+      transform: translate(-12px, -12px);
+   }
+    60% {
+      transform: translate(-12px, -12px);
+   }
+    100% {
+      transform: translate(0px, 0px);
+   }
+  }
+  
+  .centered{
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;;}
+  
+   
+  #us h2{
+  
+    text-transform: uppercase;
+     background-image: linear-gradient(
+       -225deg,
+       #f811d5 0%,
+       #f01212 29%,
+       #f1900f 67%,
+       #fff800 100%
+     );
+     background-size: auto auto;
+     background-clip: border-box;
+     background-size: 200% auto;
+     color: #fff;
+     background-clip: text;
+     text-fill-color: transparent;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     animation: textclip 2s linear infinite;
+     display: inline-block;
+         font-size: 70px; 
+         font-family: 'LifeCraft', sans-serif
+   }
+ 
+
+  
+  #us p{
+    background: #00FF00;
+  background: linear-gradient(to left, #07f385 25%, #d3d60a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+  font-weight: 600;
+  }
+
+  .aboutuspromo{
+  margin: 5%;
+  }
+
+
+  .centered
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #7bb1ff, #a6aaff, #f1b9f3, #9dfdfd, #7bb1ff, #a6aaff, #f1b9f3, #9dfdfd, #7bb1ff
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 300%;
+      font-family: 'LifeCraft', sans-serif;
+      font-weight: 400;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.top-left{
+    text-transform: uppercase;
+   background-image: linear-gradient(
+     -225deg,
+     #231557 0%,
+     #44107a 29%,
+     #ff1361 67%,
+     #fff800 100%
+   );
+   background-size: auto auto;
+   background-clip: border-box;
+   background-size: 200% auto;
+   color: #fff;
+   background-clip: text;
+   text-fill-color: transparent;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: textclip 2s linear infinite;
+   display: inline-block;
+       
+      font-size: 300%;
+       font-family: 'LifeCraft', sans-serif
+ }
+ 
+ @keyframes textclip {
+   to {
+     background-position: 200% center;
+   }
+ }
+ .top-left {
+    position: absolute;
+    top:140%;
+    left: 5%;
+    font-size: 70px;
+    color: black;
+  }
+
+  #sec1 {
+    padding: 15%;
+     
+    
+  }
+  
+#us{
+    margin: 5%;
+    background-image: url('/public/img/dlc/skeleton.jpg');
+    background-repeat: no-repeat;
+}
+  .aboutuspromo h1{
+    font-family: 'LifeCraft', sans-serif;
+    text-align: center;
+    background-image: url("/public/img/background.jpg");
+    color: blanchedalmond;
+  }
+  .aboutuspromo{
+    background-color: antiquewhite;
+  }
+
+  
+  .accessory {
+    height: 6px;
+    background-image: radial-gradient(closest-side, rgba(128, 128, 128, 1.0), rgba(128, 128, 128, 0) 100%);
+    position: relative;
+ }
+ .bookends {
+  position: relative;
+  border-width: 5px;
+  border-color: #808080 transparent;
+  height: 11px;
+  border-style: double;
+  width: 100%;
+}
+.bookends:before, .bookends:after {
+  position: absolute;
+  bottom: -3.536px;
+  width: 7.071px;
+  height: 7.071px;
+  display: block;
+  border-width: 0 7.071px 7.071px 0;
+  border-color: #808080;
+  border-style: double;
+  box-sizing: border-box;
+}
+.bookends:before {
+  transform: translateZ(0) rotate(-45deg);
+  left: -21px;
+}
+.bookends:after {
+  transform: translateZ(0) rotate(135deg);
+  right: -21px;
+}
+
+#contactpage{
+  background-image: url('/public/img/flowers2.gif');
+}
+
+.sec1 {
+  display: flex
+  ;justify-content: center;
+}
+
+#promotebanner{
+display: flex;
+justify-content: center;
+width: 100%;
+}
+
+#banner:hover{
+
+  transform: scale(1.2);}
+
+ 

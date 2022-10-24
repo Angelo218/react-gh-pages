@@ -1,0 +1,43 @@
+.monster2 img {
+  width: 100%;
+  border: 2px solid #ffae00;
+  margin: 2px;
+}
+.monster2 img:hover {
+  transform: scale(1.1);
+}
+
+.monster2 h3 {
+  color: #ffae00;
+  text-align: left;
+  font-weight: 600;
+  font-size: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "DotGothi6";
+}
+
+.newbiebox {
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(225, 143, 19);
+  text-align: center;
+ margin: 5%;
+}
+
+.newbiebox h3{
+
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(top,#f3edc4 30%,#d4bd4f 70%);
+    -webkit-background-clip: text;
+ 
+}
+
+.newbiebox:hover{
+    text-shadow: 0 0 5px #ffffff;
+    color: white;
+}
+.pvsection{
+    display: flex;
+    justify-content:center
+}
