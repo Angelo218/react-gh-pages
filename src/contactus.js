@@ -26,7 +26,7 @@ export default function contactus() {
                     <Carousel.Item>
                       <img
                         className="d-block w-100"
-                        src="./img/amanda.png"
+                        src={process.env.PUBLIC_URL+"/img/amanda.png"}
                         alt="First slide"
                       />
                       <Carousel.Caption>
@@ -37,7 +37,7 @@ export default function contactus() {
                     <Carousel.Item>
                       <img
                         className="d-block w-100"
-                        src="./img/prmo.jpg"
+                        src={process.env.PUBLIC_URL+"/img/prmo.jpg"}
                         alt="Second slide"
                       />
           
@@ -48,7 +48,7 @@ export default function contactus() {
                     <Carousel.Item>
                       <img
                         className="d-block w-100"
-                        src="./img/merchants.jpg"
+                        src={process.env.PUBLIC_URL+"/img/merchants.jpg"}
                         alt="Third slide"
                       />
           
@@ -57,7 +57,7 @@ export default function contactus() {
                       <Carousel.Item>
                         <img
                           className="d-block w-100"
-                          src="./img/角色商店用.jpg"
+                          src={process.env.PUBLIC_URL+"/img/角色商店用.jpg"}
                           alt="forth slide"
                         />
           
@@ -74,7 +74,7 @@ export default function contactus() {
 
                 <div className="col-md-6">
                   <div>
-                    <img src="./img/jitter1.gif" alt="" />
+                    <img src={process.env.PUBLIC_URL+"/img/jitter1.gif"} alt="" />
                   </div>
                 </div>
               </div>
@@ -84,7 +84,7 @@ export default function contactus() {
 
         <div className="animate__animated animate__fadeIn">
         <div id="promotebanner" >
-         <a id="banner" href="https://domodfg.github.io/world-s-bole/#/shop/merch"><img src="./img/promotebanner.png" alt=""/></a>
+         <a id="banner" href="https://domodfg.github.io/world-s-bole/#/shop/merch"><img src={process.env.PUBLIC_URL+"/img/promotebanner.png"} alt=""/></a>
         </div>
         </div>
         <AnimationOnScroll animateIn="bounce">
@@ -93,7 +93,7 @@ export default function contactus() {
         <div className="animate__animated animatebounce ">
           <div class="content">
             <div className="contactusintro">
-              <img src="./img/aboutus/bg2.jpg" alt="" />
+              <img src={process.env.PUBLIC_URL+"/img/aboutus/bg2.jpg"} alt="" />
               
               <div class="top-left">Our Mission </div>
 

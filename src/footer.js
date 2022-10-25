@@ -6,10 +6,10 @@ export default function footer() {
     
       <footer className="footer">
         <div className="socialmedia">
-          <img src="./img/aboutus/fb.png" alt="facebook" />
-          <img src="./img/aboutus/ig.png" alt="instagram" />
-          <img src="./img/aboutus/tw.png" alt="twitter" />
-          <img src="./img/aboutus/yt.png" alt="youtube" />
+          <img src={process.env.PUBLIC_URL+"/img/aboutus/fb.png"} alt="facebook" />
+          <img src={process.env.PUBLIC_URL+"/img/aboutus/ig.png"} alt="instagram" />
+          <img src={process.env.PUBLIC_URL+"/img/aboutus/tw.png"} alt="twitter" />
+          <img src={process.env.PUBLIC_URL+"/img/aboutus/yt.png"} alt="youtube" />
         </div>
         <div className="policy">
           <a href="https://domodfg.github.io/world-s-bole/#/usepolicy">服務條款</a>

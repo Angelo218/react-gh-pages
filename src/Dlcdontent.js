@@ -52,7 +52,7 @@ export default function Dlcdontent() {
             </div>
             <div class="col-md-7">
               <div class="fade-in-image-3">
-                <img src="./img/dlc/awrd.png" alt="" />
+                <img src={process.env.PUBLIC_URL+"/img/dlc/awrd.png"} alt="" />
               </div>
             </div>
           </div>

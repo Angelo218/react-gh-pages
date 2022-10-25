@@ -23,14 +23,14 @@ export default function Monsterlist() {
 
         <div className="m-5">
           <AnimationOnScroll animateIn="animate__bounceIn">
-            <img id="gamelogo2" src="./img/game.jpg" alt="" />
+            <img id="gamelogo2" src={process.env.PUBLIC_URL + '/img/game.jpg'} alt="" />
           </AnimationOnScroll>
         </div>
         <AnimationOnScroll animateIn="animate__fadeIn">
         <div className="pvsection">
-          <img src="./img/download.png" alt=" "></img>
+          <img src= {process.env.PUBLIC_URL + "/img/download.png"} alt=" "></img>
           <h3>遊戲最新PV </h3>
-          <img id="transformx" src="./img/download1.png" alt=" "></img>
+          <img id="transformx" src={process.env.PUBLIC_URL +"/img/download1.png"} alt=" "></img>
         </div>
         <div id="PVsect">
           <iframe
@@ -50,7 +50,7 @@ export default function Monsterlist() {
             <div className="col-3">
               <div className="photowrapper">
                 <AnimationOnScroll animateIn="animate__bounceIn">
-                  <img id="gamelogo" src="./img/wb2.jpg" alt="img" />
+                  <img id="gamelogo" src={process.env.PUBLIC_URL + "/img/wb2.jpg"} alt="img" />
                 </AnimationOnScroll>
               </div>
 

@@ -4,7 +4,7 @@ export default function Error() {
   return (
     <div>
       <div>
-        <img id="background" src="./img/ui.png" alt="Snow"></img>
+        <img id="background" src={process.env.PUBLIC_URL+"/img/ui.png"} alt="Snow"></img>
 
         <div class="centered2">
           <h1>Error.404 Page</h1>

@@ -10,7 +10,7 @@ export default function carosel() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="./img/amanda.png"
+              src={process.env.PUBLIC_URL+"/img/amanda.png"}
               alt="First slide"
             />
             <Carousel.Caption>
@@ -24,7 +24,7 @@ export default function carosel() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="./img/Amelia.png"
+              src={process.env.PUBLIC_URL+"/img/Amelia.png"}
               alt="Second slide"
             />
 
@@ -38,7 +38,7 @@ export default function carosel() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="./img/event1.jpg"
+              src={process.env.PUBLIC_URL+"/img/event1.jpg"}
               alt="Third slide"
             />
 
@@ -47,7 +47,7 @@ export default function carosel() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="./img/角色商店用.jpg"
+                src={process.env.PUBLIC_URL+"/img/角色商店用.jpg"}
                 alt="forth slide"
               />
 

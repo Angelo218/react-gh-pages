@@ -97,64 +97,64 @@ export default function Raid1() {
             <div className="inline">
               <Link to={"/MonsterDetail/"}>
                 {" "}
-                <img id="myImg" src="./img/monster1.jpg" alt="不死鳥" />
+                <img id="myImg" src={process.env.PUBLIC_URL+"/img/monster1.jpg"} alt="不死鳥" />
               </Link>
             </div>
             <div className="inline">
               <Link to={"/MonsterDetail/"}>
-                <img id="myImg" src="./img/monster2.jpg" alt="不死鳥" />
+                <img id="myImg" src={process.env.PUBLIC_URL+"/img/monster2.jpg"} alt="不死鳥" />
               </Link>
             </div>
             <div className="inline">
               <Link to={"/MonsterDetail/"}>
-                <img id="myImg" src="./img/monster3.jpg" alt="不死鳥" />
+                <img id="myImg" src={process.env.PUBLIC_URL+"/img/monster3.jpg"} alt="不死鳥" />
               </Link>
             </div>
             <div className="inline">
               <Link to={"/MonsterDetail/"}>
-                <img id="myImg" src="./img/monster4.jpg" alt="不死鳥" />
+                <img id="myImg" src={process.env.PUBLIC_URL+"/img/monster4.jpg"} alt="不死鳥" />
               </Link>
             </div>
             <div className="inline">
               <Link to={"/MonsterDetail/"}>
-                <img id="myImg" src="./img/monster5.jpg" alt="不死鳥" />
+                <img id="myImg" src={process.env.PUBLIC_URL+"/img/monster5.jpg"} alt="不死鳥" />
               </Link>
             </div>
 
             <div className="inline">
               <Link to={"/MonsterDetail/"}>
-                <img id="myImg" src="./img/monster6.jpg" alt="不死鳥" />
+                <img id="myImg" src={process.env.PUBLIC_URL+"/img/monster6.jpg"} alt="不死鳥" />
               </Link>
             </div>
             <div className="inline">
               <Link to={"/MonsterDetail/"}>
-                <img id="myImg" src="./img/monster7.jpg" alt="不死鳥" />
+                <img id="myImg" src={process.env.PUBLIC_URL+"/img/monster7.jpg"} alt="不死鳥" />
               </Link>
             </div>
             <div className="inline">
               <Link to={"/MonsterDetail/"}>
-                <img id="myImg" src="./img/monster8.jpg" alt="不死鳥" />
+                <img id="myImg" src={process.env.PUBLIC_URL+"/img/monster8.jpg"} alt="不死鳥" />
               </Link>
             </div>
             <div className="inline">
               <Link to={"/MonsterDetail/"}>
                 {" "}
-                <img id="myImg" src="./img/monster9.jpg" alt="不死鳥" />
+                <img id="myImg" src={process.env.PUBLIC_URL+"/img/monster9.jpg"} alt="不死鳥" />
               </Link>
             </div>
             <div className="inline">
               <Link to={"/MonsterDetail/"}>
-                <img id="myImg" src="./img/monster10.jpg" alt="不死鳥" />
+                <img id="myImg" src={process.env.PUBLIC_URL+"/img/monster10.jpg"} alt="不死鳥" />
               </Link>
             </div>
             <div className="inline">
               <Link to={"/MonsterDetail/"}>
-                <img id="myImg" src="./img/monster11.jpg" alt="不死鳥" />
+                <img id="myImg" src={process.env.PUBLIC_URL+"/img/monster11.jpg"} alt="不死鳥" />
               </Link>
             </div>
             <div className="inline">
               <Link to={"/MonsterDetail/"}>
-                <img id="myImg" src="./img/monster12.jpg" alt="不死鳥" />
+                <img id="myImg" src={process.env.PUBLIC_URL+"/img/monster12.jpg"} alt="不死鳥" />
               </Link>
             </div>
             </div>

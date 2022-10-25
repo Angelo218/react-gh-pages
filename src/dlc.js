@@ -28,7 +28,7 @@ function Dlc() {
                   <div>
                     <img
                       className="d-block w-100"
-                      src="/img/dlc/iStock.jpg"
+                      src={process.env.PUBLIC_URL+"/img/dlc/iStock.jpg"}
                       alt="First slide"
                     />
                   </div>
@@ -46,7 +46,7 @@ function Dlc() {
                   <div>
                     <img
                       className="d-block w-100"
-                      src="/img/dlc/iStock-1.jpg"
+                      src={process.env.PUBLIC_URL+"/img/dlc/iStock-1.jpg"}
                       alt="Second slide"
                     />
                   </div>
@@ -64,7 +64,7 @@ function Dlc() {
                   <div>
                     <img
                       className="d-block w-100"
-                      src="/img/dlc/iStock-2.jpg"
+                      src={process.env.PUBLIC_URL+"/img/dlc/iStock-2.jpg"}
                       alt="Third slide"
                     />
                   </div>
@@ -89,7 +89,7 @@ function Dlc() {
                 <div className="col-lg-4 center">
                   <img
                     className="rounded-circle"
-                    src="/img/dlc/icon.jpg"
+                    src={process.env.PUBLIC_URL+"/img/dlc/icon.jpg"}
                     alt=" "
                   ></img>
                   <div className="dlch2">
@@ -108,7 +108,7 @@ function Dlc() {
                 <div className="col-lg-4">
                   <img
                     className="rounded-circle"
-                    src=" /img/dlc/icon1.jpg"
+                    src={process.env.PUBLIC_URL+"/img/dlc/icon1.jpg"}
                     alt=" "
                   ></img>
                   <div className="dlch2">
@@ -122,7 +122,7 @@ function Dlc() {
                 <div className="col-lg-4">
                   <img
                     className="rounded-circle"
-                    src=" /img/dlc/icon2.jpg"
+                    src={process.env.PUBLIC_URL+"/img/dlc/icon2.jpg"}
                     alt=" "
                   ></img>
                   <div className="dlch2">

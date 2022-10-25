@@ -11,7 +11,7 @@ export default function Raid2() {
             {" "}
             <img
               id="myImg"
-              src=".\img\dlc\weapon\wq1.png"
+              src={process.env.PUBLIC_URL+"/img/dlc/weapon/wq1.png"}
               alt="weapon"
             />
           </Link>
